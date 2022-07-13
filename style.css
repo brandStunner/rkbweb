@@ -736,7 +736,7 @@ section .title::after{
     color: rgb(27, 26, 26);
 }
 .contact .right form .button button:hover{
-    color: rgb(207, 7, 33);
+/*     color: rgb(207, 7, 33); */
     background: none;
 }
 
