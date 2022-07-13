@@ -1,0 +1,163 @@
+.navbar.sticky{
+    background: rgb(95, 85, 32);
+}
+
+.navbar .logo a{
+    color: rgb(255, 255, 255);
+}
+.navbar .logo a span{
+    color: rgb(0, 196, 245);
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+
+.navbar .logo a:hover{
+    color: rgb(0, 196, 245);
+}
+.navbar .menu li a {
+    color: #fff;
+}
+.navbar.sticky .menu li a:hover{
+    color: rgb(73, 70, 240);
+}
+
+/*-------------s1 style--------------*/
+.s1{
+    background-color: #857ca0;
+    border-bottom: 1px solid #c1c1c1;
+}
+.greetings-wrapper{
+    border: 2px solid rgb(117, 117, 151);
+}
+.intro-wrapper{
+    background-color: rgb(72, 72, 83);
+    border: 1px solid #615f69;
+}
+#profile-pic{
+    border: 2px solid #615f69;
+}
+
+#light-mode{
+    background: #857ca0;
+}
+#preview-shadow{
+    background: #6d8ac9;
+}
+#preview{
+    border: 2px solid #17a2b8;
+    background: rgb(251, 249, 243, 0.4);   
+}
+.corner{
+    border: 1.5px solid #17a2b8;
+    background: #fff;
+}
+/*Menu button style*/
+.menu-btn{
+    color: #6d8ac9;
+}
+.scroll-up-btn{
+    background: rgb(73, 70, 240);
+}
+.home{
+    background-image: url("photos/tree.jpg");
+}
+.home .home-content .text-3 span{
+    color: rgb(12, 187, 240);
+}
+.home .home-content a{
+    background-color:rgb(20, 20, 53);
+    color: #fff;
+    border: 2px solid rgb(20, 20, 53); 
+}
+.home .home-content a:hover{
+    color: rgb(20, 20, 53);
+    background: none;
+}
+section .title::after{
+ 
+    color: rgb(73, 70, 240);
+    background: #fff;  
+}
+.about .about-content .right .text span{
+    color: rgb(73, 70, 240);
+}
+.about .about-content .right a{
+    background-color: rgb(73, 70, 240);
+    color: #fff;
+    border: 2px solid rgb(73, 70, 240);
+}
+.about .about-content .right a:hover{
+    color:rgb(73, 70, 240);
+}
+
+/*---------services style-----------*/
+.services, .testify{
+    background: rgb(72, 72, 83);
+    color: #fff;
+}
+.services .title::before,
+.testify .title::before{
+    background: rgb(34, 33, 136);
+}
+.services .title::after,
+.testify .title::after{
+    content: 'what i offer';
+    background: #111;
+}
+.services .serv-content .card{
+    background: #222;
+}
+.services .serv-content .card:hover{
+    background: rgb(34, 33, 136);
+}
+.services .serv-content .card i{
+    color: rgb(73, 70, 240);
+}
+.skills .skills-content .left a{
+    background-color: rgb(73, 70, 240); 
+    border: 2px solid rgb(20, 20, 53);  
+}
+.skills .skills-content .left a:hover{
+    color: rgb(20, 20, 53);
+}
+.skills .skills-content .right .line{
+    background: lightslategray;
+}
+.skills .skills-content .right .line::before{
+    background: rgb(20, 20, 53);
+}
+.testify .carousel .card:hover{
+    background: rgb(73, 70, 240);
+}
+.testify .carousel .card img{
+    border: 5px solid rgb(20, 20, 53);
+}
+.owl-dot{
+    border: 2px solid rgb(73, 70, 240)!important;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: rgb(73, 70, 240)!important;
+}
+.contact .contact-content .row i{
+    color: rgb(73, 70, 240);
+}
+.contact .right form .button button{
+    border: 2px solid rgb(132, 131, 189);
+    background: rgb(89, 197, 230);
+}
+.contact .right form .button button:hover{
+    color: rgb(73, 70, 240);
+}
+footer span a{
+    color: rgb(89, 197, 230);
+} 
+footer{
+    background: rgb(20, 20, 53);
+    padding: 20px 23px;
+    color: #fff;
+    font-family: Georama, sans-serif;
+} 

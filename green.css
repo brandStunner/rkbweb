@@ -1,0 +1,163 @@
+.navbar.sticky{
+    background: rgb(4, 58, 11);
+}
+
+.navbar .logo a{
+    color: rgb(255, 255, 255);
+}
+.navbar .logo a span{
+    color: rgb(24, 228, 34);
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+
+.navbar .logo a:hover{
+    color: rgb(24, 228, 34);
+}
+.navbar .menu li a {
+    color: #fff;
+}
+.navbar.sticky .menu li a:hover{
+    color: rgb(79, 138, 82);
+}
+
+/*-------------s1 style--------------*/
+.s1{
+    background-color: #398159;
+    border-bottom: 1px solid rgb(145, 214, 148);
+}
+.greetings-wrapper{
+    border: 2px solid rgb(145, 214, 148);
+}
+.intro-wrapper{
+    background-color: rgb(145, 214, 148);
+    border: 1px solid #398159;
+}
+#profile-pic{
+    border: 2px solid #398159;
+}
+
+#light-mode{
+    background: #f3f7f4;
+}
+#preview-shadow{
+    background: #398159;
+}
+#preview{
+    border: 2px solid #10f035;
+    background: #398159;   
+}
+.corner{
+    border: 1.5px solid #17a2b8;
+    background: #fff;
+}
+/*Menu button style*/
+.menu-btn{
+    color: rgb(127, 233, 132);
+}
+.scroll-up-btn{
+    background: rgb(94, 240, 101);
+}
+.home{
+    background-image: url("photos/greenn.jpg");
+}
+.home .home-content .text-3 span{
+    color: rgb(24, 228, 34);
+}
+.home .home-content a{
+    background-color:rgb(4, 58, 11);
+    color: #fff;
+    border: 2px solid rgb(4, 58, 11); 
+}
+.home .home-content a:hover{
+    color: rgb(79, 138, 82);
+    background: none;
+}
+section .title::after{
+ 
+    color: rgb(79, 138, 82);
+    background: #fff;  
+}
+.about .about-content .right .text span{
+    color: rgb(79, 138, 82);
+}
+.about .about-content .right a{
+    background-color: rgb(79, 138, 82);
+    color: #fff;
+    border: 2px solid rgb(79, 138, 82);
+}
+.about .about-content .right a:hover{
+    color:rgb(79, 138, 82);
+}
+
+/*---------services style-----------*/
+.services, .testify{
+    background: rgb(151, 233, 155);
+    color: #fff;
+}
+.services .title::before,
+.testify .title::before{
+    background: rgb(79, 138, 82);
+}
+.services .title::after,
+.testify .title::after{
+    content: 'what i offer';
+    background: #111;
+}
+.services .serv-content .card{
+    background: #222;
+}
+.services .serv-content .card:hover{
+    background: rgb(79, 138, 82);
+}
+.services .serv-content .card i{
+    color: rgb(79, 138, 82);
+}
+.skills .skills-content .left a{
+    background-color: rrgb(79, 138, 82); 
+    border: 2px solid rgb(4, 58, 11);  
+}
+.skills .skills-content .left a:hover{
+    color: rgb(4, 58, 11);
+}
+.skills .skills-content .right .line{
+    background: rgb(143, 214, 158);
+}
+.skills .skills-content .right .line::before{
+    background: rgb(4, 58, 11);
+}
+.testify .carousel .card:hover{
+    background: rgb(79, 138, 82);
+}
+.testify .carousel .card img{
+    border: 5px solid rgb(4, 58, 11);
+}
+.owl-dot{
+    border: 2px solid rgb(79, 138, 82)!important;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: rgb(79, 138, 82)!important;
+}
+.contact .contact-content .row i{
+    color: rgb(79, 138, 82);
+}
+.contact .right form .button button{
+    border: 2px solid rgb(133, 221, 137);
+    background: rgb(105, 224, 121);
+}
+.contact .right form .button button:hover{
+    color: rgb(94, 240, 101);
+}
+footer span a{
+    color: rgb(211, 14, 14);
+} 
+footer{
+    background: rgb(4, 58, 11);
+    padding: 20px 23px;
+    color: #fff;
+    font-family: Georama, sans-serif;
+} 
