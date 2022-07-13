@@ -736,7 +736,7 @@ section .title::after{
     color: rgb(27, 26, 26);
 }
 .contact .right form .button button:hover{
-/*     color: rgb(207, 7, 33); */
+    color: rgb(207, 7, 33);
     background: none;
 }
 
@@ -911,6 +911,15 @@ footer span a:hover{
     .brand-range{
         display: flex;
     }
+    //
+    .contact .right form .button a{
+    color: rgb(27, 26, 26);
+   }
+    .contact .right form .button button:hover{
+    color: rgb(207, 7, 33);
+    }
+    //
+    
     .home .home-content .text-2{
         font-size: 50px;
     }
